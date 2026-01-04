@@ -1,0 +1,36 @@
+body {
+      margin: 0;
+      height: 100vh;
+      font-family: Segoe UI, Tahoma, sans-serif;
+      background: #f4f6f9;
+      overflow: hidden;
+}
+
+h2 {
+      text-align: center;
+      margin-top: 15px;
+}
+
+.subtitle {
+      text-align: center;
+      font-size: 14px;
+      color: #666;
+}
+
+
+
+#draggable {
+      position: absolute;
+      width: 150px;
+      left: 50%;
+      top: 140px;
+      transform: translateX(-50%);
+      cursor: pointer;
+      user-select: none;
+}
+
+
+#draggable.dragging {
+      animation: none;
+      cursor: grabbing;
+}
